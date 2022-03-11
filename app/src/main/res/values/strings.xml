@@ -6,4 +6,12 @@
     <string name="event1">Проведение «Дня открытых дверей ИКТИБ» по направлениям бакалавриата/специалитета</string>
     <string name="event1_title">День открытых дверей</string>
     <string name="event1_date">27 марта 2022</string>
+    <string name="event_button">Принять участие</string>
+    <string name="event2">Организация и проведение чемпионата по профессиональному мастерству среди школьников JuniorSkills в рамках IV Открытого отборочного Чемпионата Южного федерального университета по стандартам "Ворлдскиллс Россия (WorldSkills Russia)"</string>
+    <string name="event2_title">Чемпионат среди школьников</string>
+    <string name="event2_date">Апрель 2022</string>
+    <string name="event3">Онлайн Хакатон по программированию для школьников</string>
+    <string name="event3_title">День открытых дверей</string>
+    <string name="event3_date">11 апреля 2022</string>
+
 </resources>
