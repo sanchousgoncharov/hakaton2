@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "887503226937",
+    "project_id": "mdi-hakaton",
+    "storage_bucket": "mdi-hakaton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887503226937:android:e626bbf0e9ff860c7ae5e8",
+        "android_client_info": {
+          "package_name": "com.example.hakaton2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887503226937-5bag5aeor0l9u8feplk5dvpuroa9jfqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEt5hgGcLKNtWzfynHO-k313wN9QYGfAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887503226937-5bag5aeor0l9u8feplk5dvpuroa9jfqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
