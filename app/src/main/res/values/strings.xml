@@ -2,7 +2,9 @@
     <string name="app_name">hakaton2</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Личный кабинет</string>
+    <string name="registration">Регистрация</string>
+    <string name="reg_text_bottom">Войдите в свою учетную запись</string>
     <string name="event1">Проведение «Дня открытых дверей ИКТИБ» по направлениям бакалавриата/специалитета</string>
     <string name="event1_title">День открытых дверей</string>
     <string name="event1_date">27 марта 2022</string>
@@ -14,4 +16,10 @@
     <string name="event3_title">Хакатон среди школьников</string>
     <string name="event3_date">11 апреля 2022</string>
     <string name="event_button_clicked">Заявка подана</string>
+    <string name="button">Button</string>
+    <string name="log_btn_enter">Войти</string>
+    <string name="reg_btn_enter">Зарегистрироваться</string>
+    <string name="reg_btn_first">Зарегистрироваться</string>
+    <string name="log_btn_first">Войти</string>
+
 </resources>
