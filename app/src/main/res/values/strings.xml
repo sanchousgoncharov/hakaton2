@@ -11,7 +11,7 @@
     <string name="event2_title">Чемпионат среди школьников</string>
     <string name="event2_date">Апрель 2022</string>
     <string name="event3">Онлайн Хакатон по программированию для школьников</string>
-    <string name="event3_title">День открытых дверей</string>
+    <string name="event3_title">Хакатон среди школьников</string>
     <string name="event3_date">11 апреля 2022</string>
-
+    <string name="event_button_clicked">Заявка подана</string>
 </resources>
