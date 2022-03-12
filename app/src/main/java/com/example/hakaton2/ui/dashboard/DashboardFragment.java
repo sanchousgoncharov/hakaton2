@@ -1,6 +1,7 @@
 package com.example.hakaton2.ui.dashboard;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,12 +46,13 @@ public class DashboardFragment extends Fragment {
                 roulette.rouletteMechanism();
                 for (int x = 0; x < 100; x++){
                     random_value = (int) (Math.random()*99);
-                    roll_text.setText(gifts[x]);
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException ex) {
-                        ex.printStackTrace();
-                    }
+                    Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            roll_text.setText(gifts[random_value]);
+                        }
+                    }, 2000);
                 }
 
             }
