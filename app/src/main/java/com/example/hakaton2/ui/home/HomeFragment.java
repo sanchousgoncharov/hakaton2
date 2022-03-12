@@ -14,7 +14,10 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.hakaton2.Points;
 import com.example.hakaton2.R;
+
+import static com.example.hakaton2.ui.dashboard.DashboardFragment.points;
 
 public class HomeFragment extends Fragment {
 
@@ -22,6 +25,9 @@ public class HomeFragment extends Fragment {
     public Button bt_event1;
     public Button bt_event2;
     public Button bt_event3;
+    public static boolean vis1 = true;
+    public static boolean vis2 = true;
+    public static boolean vis3 = true;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -31,12 +37,17 @@ public class HomeFragment extends Fragment {
         bt_event1 = (Button) root.findViewById(R.id.event1_bt);
         bt_event2 = (Button) root.findViewById(R.id.event2_bt);
         bt_event3 = (Button) root.findViewById(R.id.event3_bt);
+        bt_event1.setEnabled(vis1);
+        bt_event2.setEnabled(vis2);
+        bt_event3.setEnabled(vis3);
 
         bt_event1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                points.eventReg();
                 bt_event1.setText(R.string.event_button_clicked);
-                bt_event1.setEnabled(false);
+                vis1 = false;
+                bt_event1.setEnabled(vis1);
                 Toast.makeText(getContext(), "Вы записались на мероприятие", Toast.LENGTH_LONG).show();
             }
         });
@@ -44,17 +55,22 @@ public class HomeFragment extends Fragment {
         bt_event2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                points.eventReg();
                 bt_event2.setText(R.string.event_button_clicked);
-                bt_event2.setEnabled(false);
+                vis2 = false;
+                bt_event2.setEnabled(vis2);
+
                 Toast.makeText(getContext(), "Вы записались на мероприятие", Toast.LENGTH_LONG).show();
             }
         });
 
-        bt_event2.setOnClickListener(new View.OnClickListener() {
+        bt_event3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bt_event2.setText(R.string.event_button_clicked);
-                bt_event2.setEnabled(false);
+                points.eventReg();
+                bt_event3.setText(R.string.event_button_clicked);
+                vis3 = false;
+                bt_event3.setEnabled(vis3);
                 Toast.makeText(getContext(), "Вы записались на мероприятие", Toast.LENGTH_LONG).show();
             }
         });
