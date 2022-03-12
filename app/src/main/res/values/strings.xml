@@ -21,5 +21,11 @@
     <string name="reg_btn_enter">Зарегистрироваться</string>
     <string name="reg_btn_first">Зарегистрироваться</string>
     <string name="log_btn_first">Войти</string>
+    <string name="roll_bt">Прокрутить</string>
+    <string name="roll_title">Колесо фортуны</string>
+    <string name="roll_price">Cтоимость 5 ИКТИБаллов</string>
+    <string name="roll_text">Испытай удачу и получи возможность выйграть больше ИКТИБаллов, мерч или увеличенную стипендию</string>
+    <string name="roll_info_bt">Призы</string>
+
 
 </resources>
