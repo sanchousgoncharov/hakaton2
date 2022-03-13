@@ -4,7 +4,7 @@
     <string name="title_dashboard">Магазин</string>
     <string name="title_notifications">Личный кабинет</string>
     <string name="table_of_lead_numm">#\t \t \t \t \tИмя\t\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t  \t \t \t \t \tБаллы</string>
-    <string name="table_of_lead_pos">1)\t \t \t \t \tВы \t \t \t \t \t\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t  \t 500\n\n2)\n\n3)\n\n4)\n\n5)</string>
+    <string name="table_of_lead_pos">1)\t \t \t \t \tВы \t \t \t \t \t\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t  \t 14\n\n2)\n\n3)\n\n4)\n\n5)</string>
     <string name="registration">Регистрация</string>
     <string name="reg_text_bottom">Войдите в свою учетную запись</string>
     <string name="event1">Проведение «Дня открытых дверей ИКТИБ» по направлениям бакалавриата/специалитета</string>
