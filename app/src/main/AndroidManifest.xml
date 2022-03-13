@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hakaton2">
         <activity
+            android:name=".ui.notifications.TableOfLeaders"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.Events"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.Help"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.Achivments"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.Kabinet"
             android:exported="false" />
         <activity

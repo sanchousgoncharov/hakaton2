@@ -3,6 +3,8 @@
     <string name="title_home">Мероприятия</string>
     <string name="title_dashboard">Магазин</string>
     <string name="title_notifications">Личный кабинет</string>
+    <string name="table_of_lead_numm">#\t \t \t \t \tИмя\t\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t  \t \t \t \t \tБаллы</string>
+    <string name="table_of_lead_pos">1)\t \t \t \t \tВы \t \t \t \t \t\t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t \t  \t 500\n\n2)\n\n3)\n\n4)\n\n5)</string>
     <string name="registration">Регистрация</string>
     <string name="reg_text_bottom">Войдите в свою учетную запись</string>
     <string name="event1">Проведение «Дня открытых дверей ИКТИБ» по направлениям бакалавриата/специалитета</string>
@@ -29,6 +31,14 @@
     <string name="price_title">Получить за ИКТИБаллы</string>
     <string name="log_edt_login">Логин</string>
     <string name="log_edt_pass">Пароль</string>
+    <string name="btn_achiv">Достижения</string>
+    <string name="btn_event">Мероприятия</string>
+    <string name="btn_help">Помощь</string>
+    <string name="brn_lead">Таблица лидеров</string>
+    <string name="bliz_mp">Ближайшее мероприятие:</string>
+    <string name="period_btn">Период</string>
+    <string name="helppp_string">\tЧто такое ИКТИБаллы? ИКТИБаллы - это название условных единиц за которые вы можете приобрести как услуги, так и мерч института. \n\n\n \n Как получить ИКТИБаллы?\n Очень просто! Необходимо прийти на меноприятие, организованное институтом ИКТИБ, и отсканировать QR код. Или же вы можете попробовать выйграть призы в колесе фортуны!\n \n\n \n Как получить призы? \n Чтобы получить призы вам необходимо прийти в институт и забрать свою награду в специально отведённом месте.</string>
+
     <string name="price_merch">Мерч</string>
     <string name="iktib_event_price">3 ИКТИБалла</string>
 </resources>

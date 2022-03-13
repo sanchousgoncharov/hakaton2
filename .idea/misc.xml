@@ -3,16 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_achivments.xml" value="0.16822916666666668" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_camera.xml" value="0.3875" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_events.xml" value="0.3328125" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_help.xml" value="0.3328125" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_kabinet.xml" value="0.33" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_login.xml" value="0.3875" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_main.xml" value="0.3378623188405797" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_register.xml" value="0.3875" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/activity_table_of_leaders.xml" value="0.3328125" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/barcode.xml" value="0.1" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/fragment_dashboard.xml" value="0.3378623188405797" />
-        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/fragment_home.xml" value="0.24846153846153846" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/fragment_notifications.xml" value="0.33" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/layout/strings.xml" value="0.3875" />
         <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.256" />
+        <entry key="..\:/Users/kiril/AndroidStudioProjects/hakaton2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.188" />
       </map>
     </option>
   </component>
