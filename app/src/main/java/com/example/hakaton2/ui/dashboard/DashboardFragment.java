@@ -70,6 +70,7 @@ public class DashboardFragment extends Fragment {
                         @Override
                         public void run() {
                             random_value = (int) (Math.random() * 99);
+                            roll_text.setTextColor(Color.GRAY);
                             roll_text.setText(gifts[random_value]);
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -126,7 +127,7 @@ public class DashboardFragment extends Fragment {
                                                                                                                 public void run() {
                                                                                                                     random_value = (int) (Math.random() * 99);
                                                                                                                     roll_text.setText(gifts[random_value]);
-                                                                                                                    roll_text.setTextColor(Color.BLACK);
+                                                                                                                    roll_text.setTextColor(Color.RED);
                                                                                                                 }
                                                                                                             }, 1000);
                                                                                                         }

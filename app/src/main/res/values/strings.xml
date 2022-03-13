@@ -27,6 +27,7 @@
     <string name="roll_text">Испытай удачу и получи возможность выйграть больше ИКТИБаллов, мерч или увеличенную стипендию</string>
     <string name="roll_info_bt">Призы</string>
     <string name="price_title">Получить за ИКТИБаллы</string>
-
+    <string name="log_edt_login">Логин</string>
+    <string name="log_edt_pass">Пароль</string>
 
 </resources>
