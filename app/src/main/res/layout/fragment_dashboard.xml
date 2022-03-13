@@ -169,7 +169,9 @@
                             android:layout_marginEnd="8dp"
                             android:text="@string/roll_bt"
                             style="?attr/materialButtonOutlinedStyle"
-                            android:layout_marginRight="8dp" />
+                            android:textColor="#1a1c87"
+                            android:layout_marginRight="8dp"
+                            app:strokeColor="#1a1c87"/>
 
                         <com.google.android.material.button.MaterialButton
                             android:id="@+id/roll_info_bt"
@@ -178,6 +180,7 @@
                             android:layout_marginEnd="8dp"
                             android:text="@string/roll_info_bt"
                             style="?attr/borderlessButtonStyle"
+                            android:textColor="#1a1c87"
                             android:layout_marginRight="8dp" />
 
                     </LinearLayout>

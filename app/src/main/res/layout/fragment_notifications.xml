@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="374dp"
-        android:layout_height="600dp"
+        android:layout_width="362dp"
+        android:layout_height="549dp"
         android:src="@drawable/ak_j_7jhanq"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,25 +22,25 @@
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:text="@string/reg_btn_first"
+        app:backgroundTint="#0f1f2e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875"
-        app:backgroundTint="#0f1f2e"/>
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/btnSignIn"
         android:layout_width="300dp"
         android:layout_height="45dp"
         android:text="@string/log_btn_first"
+        app:backgroundTint="#0f1f2e"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941"
-        app:backgroundTint="#0f1f2e"/>
+        app:layout_constraintVertical_bias="0.902" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
