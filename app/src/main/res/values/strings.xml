@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">hakaton2</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="app_name">Абитуриент ИКТИБ</string>
+    <string name="title_home">Мероприятия</string>
+    <string name="title_dashboard">Магазин</string>
     <string name="title_notifications">Личный кабинет</string>
     <string name="registration">Регистрация</string>
     <string name="reg_text_bottom">Войдите в свою учетную запись</string>
@@ -29,5 +29,6 @@
     <string name="price_title">Получить за ИКТИБаллы</string>
     <string name="log_edt_login">Логин</string>
     <string name="log_edt_pass">Пароль</string>
-
+    <string name="price_merch">Мерч</string>
+    <string name="iktib_event_price">3 ИКТИБалла</string>
 </resources>

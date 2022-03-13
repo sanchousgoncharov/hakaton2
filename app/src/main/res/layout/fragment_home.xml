@@ -82,7 +82,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
                                 android:layout_marginLeft="20dp"
-                                android:text="3 балла"
+                                android:text="@string/iktib_event_price"
                                 android:textAppearance="?attr/textAppearanceBody2"
                                 android:textColor="?android:attr/textColorSecondary" />
 
@@ -170,7 +170,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
                                 android:layout_marginLeft="20dp"
-                                android:text="3 балла"
+                                android:text="@string/iktib_event_price"
                                 android:textAppearance="?attr/textAppearanceBody2"
                                 android:textColor="?android:attr/textColorSecondary" />
 
@@ -258,7 +258,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
                                 android:layout_marginLeft="20dp"
-                                android:text="3 балла"
+                                android:text="@string/iktib_event_price"
                                 android:textAppearance="?attr/textAppearanceBody2"
                                 android:textColor="?android:attr/textColorSecondary" />
 

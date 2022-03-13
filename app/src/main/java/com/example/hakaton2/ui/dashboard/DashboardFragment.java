@@ -15,6 +15,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.DividerItemDecoration;
 
 import com.example.hakaton2.Points;
 import com.example.hakaton2.R;
@@ -34,6 +35,7 @@ public class DashboardFragment extends Fragment {
     public Roulette roulette = new Roulette();
     public static boolean vis_roll = true;
 
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
@@ -43,6 +45,7 @@ public class DashboardFragment extends Fragment {
         roll_info_bt = (Button) root.findViewById(R.id.roll_info_bt);
         roll_text = (TextView) root.findViewById(R.id.roll_text);
         points_title = (TextView) root.findViewById(R.id.points_title);
+
         points_title.setText( points.getPoints() + " ИКТИБаллов");
         if (points.getPoints() < 5){
             vis_roll = false;
